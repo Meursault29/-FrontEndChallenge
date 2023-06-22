@@ -1,0 +1,158 @@
+body{
+    background:rgb(226, 223, 223);
+    background-color: #F5F5F5;
+    width:100%;
+    font-family:sans-serif;
+    margin:0 auto;
+}
+.content{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.post{
+    margin-left: 5px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.profile p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.icon-edit{
+    display: flex;
+    align-items: center;
+}
+.icon-edit img{
+    margin-left: 785px;
+    margin-top: -60px;
+    width: 15px;
+    height: 15px;
+}
+.user{
+    color:#46B3E9;
+}
+.caption{
+    padding-top: 20px;
+}
+.photos{
+    margin-top: 30px;
+}
+.photos img{
+    width: 795px;
+    margin-left: 5px;
+}
+.respon{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.respon img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.respon small{
+    margin-right: 15px;
+    color: grey;
+}
+.comment{
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: -40px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    
+}
+.total-comment{
+    margin-top: -15px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.total-comment img{
+    width: 10px;
+    margin-left: 10px;
+}
+.profile-comment{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.pict-comment{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-top: -25px;
+}
+.profile-comment p{
+   margin-left: 10px;
+   margin-bottom: -15px;
+   margin-right: 5px;
+}
+.answer p{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #46B3E9;
+}
+.user-comment{
+    font-weight: bold;
+}
+.answer{
+    margin-top: 25px;
+}
+.report-flag{
+    margin-left: 60px;
+    margin-top: -5px;
+    width: 20px;
+    height: 20px;
+}
+.new-comment{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.new-comment img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-top: -35px;
+}
+.new-comment textarea{
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: #EEEEEE;
+}
+.button-comment button{
+    margin-left: 55px;
+    margin-top: 20px;
+    background-color: #039BE5;
+    font-size: 12px;
+    padding: 10px 22px;
+    text-align: center;
+    color: white;
+    border-style: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
